@@ -44,7 +44,7 @@
     "url": "https://github.com/lalit2005/use-link-prefetch.git"
   },
   "prettier": {
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
     "trailingComma": "none",
     "arrowParens": "avoid"
