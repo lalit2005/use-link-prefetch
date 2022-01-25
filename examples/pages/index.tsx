@@ -1,11 +1,11 @@
-import { Thing, usePrefetch } from 'use-link-prefetch'
+import { usePrefetch } from 'use-link-prefetch'
 
 const Page = () => {
   const router = usePrefetch(['/about'])
   console.log(router)
   return (
     <div>
-      <Thing />
+      Hello world
     </div>
   )
 }
